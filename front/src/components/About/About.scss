@@ -1,0 +1,19 @@
+.background {
+  background-image: url('public/img/bg/planete_bleue.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.background > .MuiContainer-root {
+  background-color: rgb(255, 255, 255);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.background > .MuiContainer-root > .MuiTypography-root {
+  margin-bottom: 1rem;
+}

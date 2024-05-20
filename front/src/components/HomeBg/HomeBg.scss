@@ -1,0 +1,22 @@
+@use '@scssVariables' as v;
+
+.home-compo {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg {
+  background-image: url(./../../img/home/home-01.png);
+  width: 640px;
+  height: 379px;
+  background-size: cover;
+}
+.title {
+  color: v.$clr-primary;
+  font-size: 9rem;
+  margin: auto;
+  width: max-content;
+  position: relative;
+  top: 40%;
+}

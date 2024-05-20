@@ -1,0 +1,15 @@
+@use 'reset';
+@use 'variables' as v;
+
+:root {
+  font-family: 'Bree Serif', serif;
+  font-family: 'Jomhuria', serif;
+  line-height: 1rem;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}

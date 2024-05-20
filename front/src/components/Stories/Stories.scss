@@ -1,0 +1,24 @@
+.content-container-stories {
+  background-image: url('/img/bg/planete_rouge.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.MuiGrid-item {
+  display: flex;
+  justify-content: center;
+}
+
+.MuiCard-root {
+  width: 100%;
+  max-width: 345px;
+  margin-bottom: 20px;
+}
